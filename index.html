@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *"> -->
+
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar -->
+    <meta name="theme-color" content="#2196f3">
+    <!-- Your app title -->
+    <title>Leandro Lobo | Desarrollador</title>
+    <!-- Path to Framework7 Library CSS -->
+    <link rel="stylesheet" href="lib/framework7/css/framework7.bundle.min.css">
+    <!-- Path to icons -->
+    <link rel="stylesheet" href="css/icons.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/app.css">
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+    <!-- Favicon-->
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+</head>
+
+<body>
+    <div id="app">
+        <!-- Statusbar overlay -->
+        <div class="statusbar"></div>
+    
+        <!-- Your main view, should have "view-main" class -->
+        <div class="view view-main">
+            <!-- Initial Page, "data-name" contains page name -->
+            <div data-name="index" class="page">
+    
+                <!-- Top Navbar -->
+                <div class="navbar">
+                    <div class="navbar-bg"></div>
+                    <div class="navbar-inner">
+                        <div class="left padding-left"><img class="logotipo" src="img/L2.png"></div>
+                        <div class="title">Leandro Lobo | App developer</div>
+                    </div>
+                </div>
+                <!-- FAB Contacto -->
+                <div class="fab fab-extended fab-right-bottom color-orange">
+                    <a href="#">
+                        <i class="icon f7-icons if-not-md">info</i>
+                        <i class="icon f7-icons if-not-md">xmark</i>
+                        <!-- Icons For MD Theme -->
+                        <i class="icon material-icons md-only">person_add_alt_1</i>
+                        <i class="icon material-icons md-only">close</i>
+                        <div class="fab-text">Contactar</div>
+                    </a>
+                    <!-- FAB speed dial actions with labels -->
+                    <div class="fab-buttons fab-buttons-top color-white">
+                        <!-- Api Whatsapp -->
+                        <a href="https://api.whatsapp.com/send?phone=+5491136809104" class="link external fab-label-button" target="_blank">
+                            <img src="img/whatsapp.png" width="30px">
+                            <span class="fab-label">Enviame un mensaje</span>
+                        </a>
+                        <!-- GMAIL -->
+                        <a href="mailto:leandrolobomarquez@gmail.com" class="link external fab-label-button">
+                            <img src="img/Google-Gmail-2020.png" width="30px">
+                            <span class="fab-label">Enviame un Email</span>
+                        </a>
+                        <!-- GitHub -->
+                        <a href="https://github.com/LeandroLobo" class="link external fab-label-button" target="_blank">
+                            <img src="img/github.png" width="30px">
+                            <span class="fab-label">Visitá mi perfil de GitHub</span>
+                        </a>
+                        <!-- GitHub -->
+                        <a href="https://www.linkedin.com/in/leandrolobo-app-developer/" class="link external fab-label-button" target="_blank">
+                            <img src="img/linkedin.png" width="30px">
+                            <span class="fab-label">Visitá mi perfil de LinkedIn</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Scrollable page content -->
+                <div class="page-content">
+
+                    <div class="block encabezado">
+                        <h1 class="fuerte">Bienvenido a mi Portfolio</h1>
+                        <p>Acá vas a encontrar una selección de mis trabajos realizados como estudiante de desarrollo de aplicaciones Web y Mobile. En los links de abajo de cada tarjeta podes redirigirte a las Apps y hecharles un vistazo, o ver el proyecto en sus repositorios de GitHub.
+                        </p>
+                    </div>
+
+                    <div class="block row no-gap justify-content-space-around">
+                        <!-- TrucOn  -->
+                        <div class="card demo-card-header-pic col-95 small-45 large-30">
+                            <div data-pagination='{"el": ".swiper-pagination"}' data-space-between="50" class="swiper-container swiper-init demo-swiper">
+                                <div class="swiper-pagination"></div>
+                                <div class="swiper-wrapper">
+                                    <div style="background-image:url(img/logo_TrucOn_negro.png)" class="swiper-slide card-header align-items-flex-end"><p>TrucOn</p></div>
+                                    <div style="background-image:url(img/trucon1.jpg)" class="swiper-slide card-header"></div>
+                                    <div style="background-image:url(img/trucon2.jpg)" class="swiper-slide card-header"></div>
+                                    <div style="background-image:url(img/trucon3.jpg)" class="swiper-slide card-header"></div>
+                                    <div style="background-image:url(img/trucon4.jpg)" class="swiper-slide card-header"></div>
+                                    <div style="background-image:url(img/trucon5.jpg)" class="swiper-slide card-header"></div>
+                                    <div style="background-image:url(img/trucon6.jpg)" class="swiper-slide card-header"></div>
+                                </div>
+                            </div>
+                            <div class="card-content card-content-padding">
+                                <p class="date">Publicado en diciembre de 2020</p>
+                                <p class="fuerte">Proyecto Final ComIT</p>
+                                <p>Un juego de Truco Online para 2 jugadores. Apliqué todos mis conocimientos adquirido durante el urso de desarrollo de Mobile Apps y mas de 100 horas de trabajo.</p>
+                                <p class="fuerte">#Google-Firebase #Storage #Data-Base #Authentication</p>
+                            </div>
+                            <div class="card-footer"><a href="https://leandrolobo.github.io/TrucOn/" target="_blank" class="link external fuerte">Jugar</a><a href="https://github.com/LeandroLobo/TrucOn" class="link external fuerte" target="_blank">Ver código</a></div>
+                        </div>
+                        <!-- APP DEL CLIMA 2  -->
+                        <div class="card demo-card-header-pic col-100 small-45 large-30">
+                            <div style="background-image:url(img/fondoAnimado3.gif)" class="card-header align-items-flex-end"><p>ClimApp</p></div>
+                            <div class="card-content card-content-padding">
+                                <p class="date">Publicado en noviembre de 2020</p>
+                                <p class="fuerte">Aprendiendo++ sobre APIs</p>
+                                <p>La App obtiene las coordenadas actuales del usuario, y le devuelve el estado del tiempo según su ubicación y muestra su posición en un mapa. Se utilzó OpenWeather, Leaflet y OpenStreetMap</p>
+                                <p class="fuerte">#Cordova-Plugins #geolocation #Maps</p>
+                            </div>
+                            <div class="card-footer"><a href="https://leandrolobo.github.io/ClimApp/" target="_blank" class="link external fuerte">Ver estado del tiempo</a><a href="https://github.com/LeandroLobo/ClimApp" class="link external fuerte" target="_blank">Ver código</a></div>
+                        </div>
+                        <!-- APP DEL CLIMA  -->
+                        <div class="card demo-card-header-pic col-100 small-45 large-30">
+                            <div style="background-image:url(img/nubes.jpg)" class="card-header align-items-flex-end"><p>Pronóstico del Clima</p></div>
+                            <div class="card-content card-content-padding">
+                                <p class="date">Publicado en noviembre de 2020</p>
+                                <p class="fuerte">Aprendiendo sobre APIs y bases de datos.</p>
+                                <p>Se puede consultar pronostico a 1 día de cualquier estación meteorológica argentina (API del S.M.N.), y ver su ubicación en googleMaps</p>
+                                <p class="fuerte">#APIs #JSON #Apache-Cordova</p>
+                            </div>
+                            <div class="card-footer"><a href="https://leandrolobo.github.io/AppDelClima/" target="_blank" class="link external fuerte">Consultar el Clima</a><a href="https://github.com/LeandroLobo/AppDelClima" class="link external fuerte" target="_blank">Ver código</a></div>
+                        </div>
+                        <!-- GENERALA  -->
+                        <div class="card demo-card-header-pic col-100 small-45 large-30">
+                            <div style="background-image:url(img/dados.png)" class="card-header align-items-flex-end"><p>GENERALA + ANOTADOR</p></div>
+                            <div class="card-content card-content-padding">
+                                <p class="date">Publicado en Octubre de 2020</p>
+                                <p class="fuerte">Trabajo en Equipo; Control de Versiones</p>
+                                <p>Proyecto para mi curso en "Comunidad IT": Anotador de puntos para generala. Se trabajó en equipo. Luego agregé unos dados y el juego está completo!</p>
+                                <p class="fuerte">#Framework7 #GitHub #Trabajo-Colaborativo</p>
+                            </div>
+                            <div class="card-footer"><a href="https://leandrolobo.github.io/Generala/" target="_blank" class="link external fuerte">JUGAR</a><a href="https://github.com/LeandroLobo/Generala" target="_blank" class="link external fuerte">Ver código</a></div>
+                        </div>
+                        <!-- ANOTADOR DE TRUCO  -->
+                        <div class="card demo-card-header-pic col-100 small-45 large-30">
+                            <div style="background-image:url(img/anotadorTruco.png)" class="card-header align-items-flex-end"><p>Anotador de puntos para TRUCO</p></div>
+                            <div class="card-content card-content-padding">
+                                <p class="date">Publicado en septiembre de 2020</p>
+                                <p class="fuerte">Funciones y Librerías</p>
+                                <p>Primer proyecto para el curso de Mobile and Web Apps en "Comunidad IT".</p>
+                                <p class="fuerte">#JQuery #ComIT</p>
+                            </div>
+                            <div class="card-footer"><a href="#" class="link external fuerte" target="_blank">JUGAR</a><a href="#" class="link external fuerte" target="_blank">Ver código</a></div>
+                        </div>
+                        <!-- TATETI 2.0.  -->
+                        <div class="card demo-card-header-pic col-100 small-45 large-30">
+                            <div style="background-image:url(img/tatetiVsIA.png)" class="card-header align-items-flex-end"><p>TATETI 2.0</p></div>
+                            <div class="card-content card-content-padding">
+                                <p class="date">Publicado en septiembre de 2020</p>
+                                <p>¡¡SI PODES GANARLE TE INVITO UNAS CERVEZAS!!</p>
+                                <p>Un desafío superado, realizar una Inteligencia Artificial "imbatible"... ¿Será cierto? Ademas podes jugar modo Humano vs Humano</p>
+                                <p class="fuerte">#JavaScript #HTML #CSS #IA</p>
+                            </div>
+                            <div class="card-footer"><a href="https://leandrolobo.github.io/Tateti2.0/" class="link external fuerte" target="_blank">JUGAR</a><a href="https://github.com/LeandroLobo/Tateti2.0" class="link external fuerte" target="_blank">Ver código</a></div>
+                        </div>
+                        <!-- BOSQUE COLOREABLE  -->
+                        <div class="card demo-card-header-pic col-100 small-45 large-30">
+                            <div style="background-image:url(img/bosque.png)" class="card-header align-items-flex-end"><p>Bosque Coloreable</p></div>
+                            <div class="card-content card-content-padding">
+                                <p class="date">En producción</p>
+                                <p>Aún lidiando con el Color Picker. <img src="img/loboSolidoNebula.png" height="20" class="margin-horizontal"></p>
+                            </div>
+                            <div class="card-footer"><a href="#" class="link external fuerte" target="_blank">JUGAR</a><a href="#" class="link external fuerte" target="_blank">Ver código</a></div>
+                        </div>    
+                    </div>
+                    <hr>
+                    <div class="block">
+                        <h2 class="text-align-center">Leandro Lobo | App Developer</h2>
+                        <p>Gracias por visitar mi página!</p>
+                    </div>
+                </div>
+
+                <div class="popover popup-contacto padding-top">
+                    <!-- FAB Cerrar -->
+                    <div class="fab fab-right-bottom">
+                        <a href="#" class="popover-close">
+                          <i class="icon f7-icons if-not-md">xmark</i>
+                          <i class="icon material-icons md-only">cancel</i>
+                        </a>
+                    </div>
+                    <center>
+                        <!-- Api LinkedIn -->
+                        <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="es_ES" data-type="vertical" data-theme="light" data-vanity="leandrolobo-app-developer"><a class="LI-simple-link external" href='https://ar.linkedin.com/in/leandrolobo-app-developer?trk=profile-badge'>Leandro Lobo</a></div>
+                    </center>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="lib/framework7/js/framework7.bundle.min.js"></script>
+    <script type="text/javascript" src="js/my-app.js"></script>
+</body>
+
+</html>
