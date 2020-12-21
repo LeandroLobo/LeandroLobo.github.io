@@ -87,7 +87,7 @@
 
 .logotipo{height: 48px;}
 .card-header{height: 230px; background-size: cover; background-repeat: no-repeat; background-position: center;}
-.card-header>p{background-color: rgba(200,200,200,0.5);width: 100%; color: white; border-radius: 20%; padding-left: 10px; margin-bottom: 4px;}
+.card-header>p{background-color: rgba(200,200,200,0.5);width: 100%; color: black; font-weight: 600; border-radius: 20%; padding-left: 10px; margin-bottom: 4px;}
 .fuerte{font-weight: 600;}
 .encabezado{
   margin: 15px;
