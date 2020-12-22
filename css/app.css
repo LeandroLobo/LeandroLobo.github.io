@@ -1,5 +1,7 @@
 /* Your app custom styles here */
 /* poppins-regular - latin */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 @font-face {
   font-family: 'Poppins';
   font-style: normal;
@@ -90,5 +92,9 @@
 .card-header>p{background-color: rgba(200,200,200,0.5);width: 100%; color: black; font-weight: 600; border-radius: 20%; padding-left: 10px; margin-bottom: 4px;}
 .fuerte{font-weight: 600;}
 .encabezado{
-  margin: 15px;
+  margin: 15px ;
+}
+.nombre-titulo{
+  font-family: 'Press Start 2P';
+  text-align: center;
 }
