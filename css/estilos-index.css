@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 *{
 	margin: 0;
 	padding: 0;
@@ -195,11 +196,12 @@ a{
 	margin-right: 10rem;
 }
 #cubo>p{
+	font-family: 'Press Start 2P', cursive;
 	position: absolute;
-	top: -1rem;
-	right: 2.2rem;
+	top: 1.5rem;
+	right: 3.5rem;
 	width: 5rem;
-	font-size: 7.5rem;
+	font-size: 7rem;
 	color: lightyellow;
 	opacity: 1;
 	transition: all 1s ease;
@@ -323,7 +325,7 @@ a{
 }
 @keyframes latido2{
   	50%{
-  		font-size: 8.5rem;
+  		font-size: 8rem;
   		color: gold;
   		text-shadow: .4rem .4rem 1rem rgba(255,215,0, 0.8);
   	}
